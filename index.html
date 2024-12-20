@@ -1,0 +1,272 @@
+    
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yann Hallage</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+        integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd" crossorigin="anonymous">
+     <link href="output.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        #profil {
+            display: inline-block;
+            border: 0px solid;
+            border-radius: 70%;
+            overflow: hidden;
+            width: 55px;
+            height: 55px;
+        }
+
+    </style>
+</head>
+
+<body class="bg-[#151515]">
+    <Header class=" text-white">
+        <!-- moi et une description -->
+        <div class="container mx-auto p-6 space-y-5 ">
+            <!-- name -->
+            <div class="italic">
+                <span class="text-5xl font-bold ">Yann Hallage</span>
+            </div>
+            <div class="text-3xl italic">
+                <span class="">Etudiant & Developpper informatique</span>
+            </div>
+            <!-- simple description -->
+            <div class="">
+                <p>
+                    I build open-source front-end libraries at Algolia and host two tech podcasts: Developer Experience
+                    and Entre Devs.
+                </p>
+                <!-- an other -->
+                <p class="mt-2">
+                    In my spare time, I share what I learn on my blog and speak at tech conferences around the world
+                </p>
+                <!-- profile -->
+                <div class="profil_link mt-4 space-x-5 text-[17px]">
+                    <a class="navbar-brand " id="im" href="#">
+                        <!-- avatar profil -->
+                        <img src="WhatsApp Image 2024-05-06 à 02.14.39_d3d98717.jpg" id="profil" name="pic" alt="" onclick="funct_account()">
+                       </a>
+                    <a href="https://www.instagram.com/thisisyannhallage/"><span class=""><i class="fa-brands fa-square-instagram"></i></span> <span class="ml-2">Instagram</span> <span class="text-[9px]"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></span></a>
+                    <a href="https://snapchat.com/add/pxnd3monuim"><span class=""><i class="fa-brands fa-square-snapchat"></i></span> <span class="ml-2">Snap</span> <span class="text-[9px]"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></span></a>
+                    <a href="" class="float-end  rounded pr-2 pl-2 m-3 cursor-default" id="coding"><span class="text-yellow-200"><i class="fa-solid fa-check-double"></i> | <span>18</span></span></a>
+                </div>
+            </div>
+        </div>
+    </Header>
+    <!-- skills -->
+    <main class="mt-5 text-white">
+        <section class="container mx-auto">
+            <span class="text-2xl">languages / font-end</span>
+            <div class="mt-4 grid md:grid-cols-3 grid-cols-1 gap-2">
+                <div class="container mx-auto p-4 bg-[#181818]  transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none">
+                    <span class="text-2xl "><i class="fa-brands fa-html5"></i></span>
+                    <span class="text-2xl">Html/ css</span>
+                    <p class="">
+                        langage de balisage conçu pour représenter les pages web
+                    </p>
+                    <div class="mt-4 text-[13px] text-[#F6B17A]">
+                        <span><i class="fa-solid fa-star"></i>  10</span> <span class="float-end">rates</span>
+                    </div>
+                </div>
+                <div class=" container mx-auto p-4 bg-[#181818] transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none">
+                    <span  class="text-2xl"><i class="fa-brands fa-js"></i></span>
+                    <span  class="text-2xl">JavaScript</span>
+                    <p class="">
+                        langage de programmation de scripts principalement employé dans les pages web interactives
+                    </p>
+                    <div class="mt-4  text-[13px] text-[#F6B17A]">
+                        <span><i class="fa-solid fa-star"></i>  10</span> <span class="float-end">rates</span>
+                    </div>
+                </div>
+                <div class=" container mx-auto p-4 bg-[#181818] transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none">
+                    <span class="text-2xl"><i class="fa-brands fa-bootstrap"></i></span>
+                    <span class="text-2xl">bootstrap</span>
+                    <p class="">
+                        une collection d'outils utiles à la création du design de sites et d'applications web
+                    </p>
+                    <div class="mt-4 text-[13px] text-[#F6B17A]">
+                        <span><i class="fa-solid fa-star"></i>  10</span> <span class="float-end">rates</span>
+                    </div>
+                </div>
+                <div class=" container mx-auto p-4 bg-[#181818] transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none">
+                    <span class="text-2xl">tailwindcss</span>
+                    <p class="">
+                        un framework CSS open source.
+                    </p>
+                    <div class="mt-4 text-[13px] text-[#F6B17A]">
+                        <span><i class="fa-solid fa-star"></i>  10</span> <span class="float-end">rates</span>
+                    </div>
+                </div>
+                <div class=" container mx-auto p-4 bg-[#181818] transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none">
+                    <span class="text-2xl"><i class="fa-brands fa-vuejs"></i></span>
+                    <span class="text-2xl">vuejs</span>
+                    <p class="">
+                        framework JavaScript open-source utilisé pour construire des interfaces utilisateur et des applications web monopages.
+                    </p>
+                    <div class="mt-4 text-[13px] text-[#F6B17A]">
+                        <span><i class="fa-solid fa-star"></i>  10</span> <span class="float-end">rates</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container mx-auto  mt-3">
+            <span  class="text-2xl">languages/back-end</span>
+            <div class="mt-4 grid md:grid-cols-3 grid-cols-1 gap-2">
+                <div class=" container mx-auto p-4 bg-[#181818] transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none">
+                    <span class="text-2xl"><i class="fa-brands fa-java"></i></span>
+                    <span class="text-2xl">java</span>
+                    <p class="">
+                        une technique informatique développée initialement par Sun Microsystems puis acquise par Oracle à la suite du rachat de l'entreprise.
+                    </p>
+                     <div class="mt-4 text-[13px] text-[#F6B17A]">
+                        <span><i class="fa-solid fa-star"></i>  10</span> <span class="float-end">rates</span>
+                    </div>
+                </div>
+                <div class=" container mx-auto p-4 bg-[#181818] transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none">
+                    <span class="text-2xl"><i class="fa-brands fa-php"></i></span>
+                    <span class="text-2xl">php</span>
+                    <p class="">
+                        de programmation libre, principalement utilisé pour produire des pages Web dynamiques via un serveur web
+                    </p>
+                     <div class="mt-4 text-[13px] text-[#F6B17A]">
+                        <span><i class="fa-solid fa-star"></i>  10</span> <span class="float-end">rates</span>
+                    </div>
+                </div>
+                <div class=" container mx-auto p-4 bg-[#181818] transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none">
+                    <span class="text-2xl"><i class="fa-brands fa-node"></i></span>
+                    <span class="text-2xl">node js</span>
+                    <p class="">
+                        une plateforme logicielle libre en JavaScript, orientée vers les applications réseau évènementielles hautement concurrentes qui doivent pouvoir monter en charge
+                    </p>
+                     <div class="mt-4 text-[13px] text-[#F6B17A]">
+                        <span><i class="fa-solid fa-star"></i>  10</span> <span class="float-end">rates</span>
+                    </div>
+                </div>
+                <div class=" container mx-auto p-4 bg-[#181818] transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none">
+                    <span class="text-2xl"><i class="fa-solid fa-database"></i></span>
+                    <span class="text-2xl">Sql</span>
+                    <p class="">
+                        langage informatique normalisé servant à exploiter des bases de données relationnelles
+                    </p>
+                     <div class="mt-4 text-[13px] text-[#F6B17A]">
+                        <span><i class="fa-solid fa-star"></i>  10</span> <span class="float-end">rates</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- gestionnaire-->
+        <section class="container mx-auto  mt-3">
+            <span  class="text-2xl">gestion de bases de données</span>
+            <div class="mt-4 grid md:grid-cols-3 grid-cols-1 gap-2">
+                <div class=" container mx-auto p-4 bg-[#181818] transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none">
+                    <span class="text-2xl"><i class="fa-solid fa-database"></i></span>
+                    <span class="text-2xl">Mysql</span>
+                    <p class="">
+                        un système de gestion de bases de données relationnelles. Il est distribué sous une double licence GPL et propriétaire
+                    </p>
+                     <div class="mt-4 text-[13px] text-[#F6B17A]">
+                        <span><i class="fa-solid fa-star"></i>  10</span> <span class="float-end">rates</span>
+                    </div>
+                </div>
+                <div class=" container mx-auto p-4 bg-[#181818] transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none">
+                    <span class="text-2xl"><i class="fa-solid fa-database"></i></span>
+                    <span class="text-2xl">postgreSQL</span>
+                    <p class="">
+                        un système de gestion de base de données relationnelle et objet. C'est un outil libre disponible selon les termes d'une licence de type BSD.
+                    </p>
+                     <div class="mt-4 text-[13px] text-[#F6B17A]">
+                        <span><i class="fa-solid fa-star"></i>  10</span> <span class="float-end">rates</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+         <!-- server -->
+          <!-- loisir -->
+          <section class="container mx-auto mt-3">
+            <span  class="text-2xl">Loisire </span>
+            <div class="mt-4 grid md:grid-cols-3 grid-cols-1 gap-2">
+                <div class=" container mx-auto p-4 bg-[#181818] transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none">
+                    <span class="text-2xl"><i class="fa-solid fa-gamepad"></i></span>
+                    <span class="text-2xl">jeux video</span>
+                    <p class="">
+                        aventure / action / sport egnime
+                    </p>
+                     <div class="mt-4 text-[13px] text-[#F6B17A]">
+                        <span><i class="fa-solid fa-star"></i>  10</span> <span class="float-end">rates</span>
+                    </div>
+                </div>
+                <div class=" container mx-auto p-4 bg-[#181818] transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none">
+                    <span class="text-2xl"><i class="fa-solid fa-atom"></i></span>
+                    <span class="text-2xl">science et technologie</span>
+                    <p class="">
+                        j'adore tout cqui est science decouvrire de nouvelle choses et booster mes connaissances
+                    </p>
+                     <div class="mt-4 text-[13px] text-[#F6B17A]">
+                        <span><i class="fa-solid fa-star"></i>  10</span> <span class="float-end">rates</span>
+                    </div>
+                </div>
+                <div class=" container mx-auto p-4 bg-[#181818] transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none">
+                    <span class="text-2xl"><i class="fa-solid fa-code"></i></span>
+                    <span class="text-2xl">Programmation</span>
+                    <p class="">
+                       relever des defies , coder tout c'qui me vient en tete , cloner certains sites 	&#128513;	&#128513;
+                    </p>
+                     <div class="mt-4 text-[13px] text-[#F6B17A]">
+                        <span><i class="fa-solid fa-star"></i>  10</span> <span class="float-end">rates</span>
+                    </div>
+                </div>
+                <div class=" container mx-auto p-4 bg-[#181818] transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none">
+                    <span class="text-2xl"><i class="fa-regular fa-futbol"></i></span>
+                    <span class="text-2xl">football</span>
+                    <p  class="">
+                        football un sport favorie
+                    </p>
+                     <div class="mt-4 text-[13px] text-[#F6B17A]">
+                        <span><i class="fa-solid fa-star"></i>  10</span> <span class="float-end">rates</span>
+                    </div>
+                </div>
+                <div class=" container mx-auto p-4 bg-[#181818] transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none">
+                    <span class="text-2xl"><i class="fa-solid fa-basketball"></i></span>
+                    <span class="text-2xl">basket</span>
+                    <p  class="">
+                        basket aussi j'aime 
+                    </p>
+                     <div class="mt-4 text-[13px] text-[#F6B17A]">
+                        <span><i class="fa-solid fa-star"></i>  10</span> <span class="float-end">rates</span>
+                    </div>
+                </div>
+                <div class=" container mx-auto p-4 bg-[#181818] transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none">
+                    <span class="text-2xl"><i class="fa-solid fa-industry"></i></span>
+                    <span class="text-2xl">Actuallités</span>
+                    <p class="">
+                        j'aime beaucoup me cultivé enfin.. tout c'qui est lié au monde , fais divers , les realités a travers le monde
+                    </p>
+                     <div class="mt-4 text-[13px] text-[#F6B17A]">
+                        <span><i class="fa-solid fa-star"></i>  10</span> <span class="float-end">rates</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="text-center  italic mt-5 p-3 text-[#ccc] text-[12px]">
+            <p>
+                © 2024 by yann hallage | dev@orathsa-indey.com <span class="text-[#555] text-[9px]">Fait à 02:59</span>
+            </p>
+        </footer>
+    </main>
+</body>
+
+</html>
